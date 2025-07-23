@@ -1,0 +1,130 @@
+* {
+    text-decoration: none;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 8, 49);
+    font-size: 25px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo {
+    text-align: center;
+    float: left;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    padding: 16px;
+}
+
+.navbar a:hover {
+    background-color: black;
+}
+
+.navbar a:link {
+    color: white;
+}
+
+.navbar a:visited {
+    color: white;
+}
+
+main{
+background-color: black;
+}
+
+
+#heading {
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+    margin: 0%;
+    padding-top: 60px;
+}
+
+.text {
+    font-size: 20px;
+    width: 700px;
+    height: auto;
+    padding-right: 60px;
+    color: white;
+
+}
+
+.stuff {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100 px;
+}
+
+
+.img {
+    height: 300px;
+    width: 400px;
+    margin-top: 60px;
+    padding-top: 0%;
+    float: left;
+    padding-bottom: 100px;
+    padding-right: 40px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: rgb(8, 8, 49);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.about ul {
+    list-style-type: none;
+}
+
+.about a:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.about a:visited {
+    color: rgb(255, 255, 255);
+}
+
+
+

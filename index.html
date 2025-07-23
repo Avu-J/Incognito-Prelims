@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonder</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body class="poppins">
+    <nav class="navbar poppins">
+        <div">
+            <div class="logo logo-text">
+                <a href="index.html">Wonder</a>
+            </div>
+            <ul class="poppins">
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact_">Contact</a></li>
+                <li><a href="#pkg">Packages</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="divmain space">
+
+            <img src="earth.jpg" alt="Earth">
+            <div class="imgtext">
+                <p class="poppins" id="typingText"></p>
+            </div>
+            <br>
+            <div class="poppins" id="text">
+                <p>Book your luxurious Journey to space using Wonder.</p>
+            </div>
+            <div>
+                <button class="book" id="homebook">Book Now!
+                <script>document.getElementById("homebook").onclick = function () {
+      confirm("Blast off to space in 3... 2... 1!");
+    };
+</script>
+                </button>
+            </div>
+
+            <div>
+                <h2 class="space" id="pack">Packages</h2>
+            </div>
+            <section class="poppins" id="pkg">
+                <div class="container boxlink">
+                    <div id="box1" class="box"><a href="lunar.html">
+                        <div class="f1">Lunar Explorer</div>
+                        <div id="l" class="packimg"><img src="lunarex.jpg"></div>
+                        <div><p class="ptext" id="l2">Duration: 10 days <br><br>A once-in-a-lifetime journey to the Moon! <br><br> Target Audience: Space explorers and science enthusiasts.</p></div>
+                        <div>
+                            <button class="book packbook">Book Now!</button>
+                        </a></div>
+                    </div>
+                    <div id="box2" class="box"><a href="redplanet.html">
+                        <div class="f1">The Red Planet</div>
+                        <div id="r" class="packimg"><img src="redplanet.jpg"></div>
+                        <div id="r2"><p class="ptext">Duration: 30 days <br><br>Embark on an interplanetary journey to Mars! <br><br>Target Audience: Serious space travelers and those interested in planetary science.</p></div>
+                        <div>
+                            <button class="book packbook" >Book Now!</button>
+                        </div>
+                    </a></div>
+                    <div id="box3" class="box"><a href="stargazer.html">
+                        <div class="f1 poppins">Stargazer Package</div>
+                        <div id="s" class="packimg"><img src="stargazer.jpg"></div>
+                        <div id="s2"><p class="ptext poppins">Duration: 3 days <br><br>A unique experience for those who want to enjoy the beauty of space without leaving the atmosphere. <br><br>Target Audience: Families, couples, and casual space enthusiasts.</p></div>
+                        <div>
+                            <button class="book packbook poppins">Book Now!</button>
+                        </div>
+                    </a></div>
+                    <div id="box4" class="box"><a href="sso.html">
+                        <div class="f1 poppins">Solar System odyssey</div>
+                        <div id="ss" class="packimg"><img src="solarsystemodyssey.jpg"></div>
+                        <div id="ss2"><p class="ptext poppins">Duration: 90 days <br><br>The ultimate adventure through our solar system, visiting key celestial bodies and experiencing the wonders of space travel. <br><br>Target Audience: Space enthusiasts, adventure seekers</p></div>
+                        <div>
+                            <button class="book packbook poppins">Book Now!</button>
+                        </div>
+                    </a></div>
+                </div>
+            </section>
+            <section id="contact_">
+                <div class="footer">
+                    <div><p class="poppins">Contact Us: Xy.mail.com</p></div>
+                    <div class="About poppins">
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="poppins">All rights reserved</div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

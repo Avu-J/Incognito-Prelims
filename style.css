@@ -1,0 +1,224 @@
+* {
+    text-decoration: none;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.space {
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.glitch {
+    font-family: 'Rubik Glitch', cursive;
+}
+
+
+body {
+    margin: 0%;
+}
+
+.navbar {
+    background-color: rgb(8, 8, 49);
+    font-size: 25px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.navbar a {
+    display: block;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.navbar a:hover {
+    background-color: black;
+}
+
+.navbar a:link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.navbar li {
+    float: left;
+    padding: 0;
+    margin: 0px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo-text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+main {
+    background-color: black;
+}
+
+main img {
+    float: right;
+    width: 100%;
+}
+
+.imgtext {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20%;
+    font-size: 70px;
+    margin-left: 60px;
+}
+
+#text {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 60px;
+    font-size: 25px;
+}
+
+
+.book {
+    background-color: rgb(99, 0, 165);
+    color: rgb(255, 255, 255);
+}
+
+#homebook {
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 60px;
+    height: 45px;
+    font-size: 30px;
+    width: 200px;
+    border: 0;
+}
+
+#pack {
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 200px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+}
+
+
+.box {
+    width: 300px;
+    height: 620px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(6, 6, 43);
+    border-radius: 10%;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.f1 {
+    font-size: 25px;
+    font-weight:600;
+    margin-top: 20px;
+}
+
+.boxlink a:link {
+    color: white;
+}
+
+.boxlink a:visited {
+    color: white;
+}
+
+.packimg {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15%;
+}
+
+#l {
+    width: 250px;
+    height: auto;
+    margin-left: 25px;
+}
+
+#r {
+    width: 200px;
+    height: auto;
+    margin-left: 50px;
+}
+
+#s {
+    width: auto;
+    height: auto;
+}
+
+#ss {
+    width: auto;
+    height: auto;
+}
+
+.ptext {
+    color: rgb(255, 255, 255);
+    font-size:18px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.packbook {
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    border: 0;
+    color: white;
+}
+
+
+.footer {
+    background-color: rgb(8, 8, 49);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.About ul {
+    list-style-type: none;
+}
+
+.About a:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.About a:visited {
+    color: rgb(255, 255, 255);
+}
